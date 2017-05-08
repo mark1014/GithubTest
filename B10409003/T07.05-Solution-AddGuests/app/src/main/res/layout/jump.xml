@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="400dp"
+        android:layout_height="20dp"
+        android:text="add new member"
+        android:textAppearance="@style/TextAppearance.AppCompat" />
+
+    <EditText
+        android:id="@+id/name_edit_text"
+        android:layout_width="400dp"
+        android:layout_height="50dp"
+        android:inputType="text"
+        android:hint="請輸入姓名:" />
+
+    <EditText
+        android:id="@+id/age_edit_text"
+        android:layout_width="400dp"
+        android:layout_height="50dp"
+        android:inputType="number"
+        android:hint="請輸入年齡:" />
+
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+    <RadioButton
+        android:id="@+id/male_radio_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:checked="true"
+        android:text="男性" />
+
+    <RadioButton
+        android:id="@+id/female_radio_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="女性" />
+
+    </RadioGroup>
+</LinearLayout>
